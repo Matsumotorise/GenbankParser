@@ -29,14 +29,14 @@ See https://ncbiinsights.ncbi.nlm.nih.gov/2017/11/02/new-api-keys-for-the-e-util
 
 
 # Usage
-* Run the pipeline on a GenBank accession list and output the log to logs/VIPBRC-NCBI.txt
+Run the pipeline on a GenBank accession list and output the log to logs/VIPBRC-NCBI.txt
 ```
 ./query_hepA_nuc.py -p ./accs/ViprBRC-07-04-2022-accession-genes.acc | tee logs/VIPBRC-NCBI.txt
 ```
 
 
 # Improving the amount of scraped hosts
-* The log files will output entries that it was unable to map. This debug output can help you make manual adjustments to our manual adjustments. There are three places where we store data for our maps: manualMap and species2group in Mapping.py, and hosts.csv.
+The log files will output entries that it was unable to map. This debug output can help you make manual adjustments to our manual adjustments. There are three places where we store data for our maps: manualMap and species2group in Mapping.py, and hosts.csv.
 
 * manualMap (Mapping.py)
     * The most straightforward way to assign a mapping is by accession number in manualMap. If you see explicitly in the study linked by the GenBank entry that they were used on X host, simply assign it to one of our hosts. However, this is inefficent and should only be used if there is nothing useful in the GenBank entry.
