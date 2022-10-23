@@ -2,7 +2,6 @@
 import os
 import argparse
 from collections import Counter, defaultdict
-from pprint import pprint
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -19,7 +18,7 @@ accToGenotype = load_genotypes()
 
 
 def arg_parse() -> object:
-    parser = argparse.ArgumentParser(description='HIV sequence analysis')
+    parser = argparse.ArgumentParser(description='HEV sequence analysis')
     parser.add_argument('-p', type=str, default=None,
                         help='Path of ascension files')
     return parser.parse_args()
@@ -71,7 +70,7 @@ def main(args):
 
     """ -------------- Parse list of records ----------------"""
     Entrez.email = 'andrewclchan211@vt.edu'
-    Entrez.apikey = "62121718eb8c662846e0fbddb67a34480408"
+    Entrez.apikey = ""
     maxUnitsInt = int(25 * (10 ** 3))
 
     # If no accession path was passed in
@@ -106,7 +105,7 @@ def main(args):
             idsRead.append(seq_record.annotations['accessions'][0])
             # Each entry has a sublist of sections, we only want the "source" which holds overall metadata
             for i, seq_feat in enumerate(seq_record.features):
-                # Extraction of host features -------------------------------------
+                ''' Extraction of host features '''
                 if i == 0:
                     found = False
                     host = "Unknown"
@@ -147,15 +146,15 @@ def main(args):
 
                     # Assign 
                     if found:
-                        if host in species2group and species2group[host] != "Unknown":
+                        if host in species2group:
                             hostTypeMap[idsRead[-1]] = species2group[host]
                         else:
-                            hostTypeMap[idsRead[-1]] = f"{host} (Unknown map)"
-                            print("Unable to map to host:", idsRead[-1], seq_feat.qualifiers)
+                            hostTypeMap[idsRead[-1]] = "Unknown"
+                            print("Unable to map to host because we are missing the following entry in mapping.py:", host, idsRead[-1], seq_feat.qualifiers)
                             notesWithoutHost.append(seq_feat.qualifiers)
                     else:
                         hostTypeMap[idsRead[-1]] = host
-                        print("Unable to map to host:", idsRead[-1], seq_feat.qualifiers)
+                        print("Unable to map to host because no valid fields existed:", idsRead[-1], seq_feat.qualifiers)
                         notesWithoutHost.append(seq_feat.qualifiers)
 
                     # Only first feature, so always break
@@ -201,7 +200,14 @@ def main(args):
                         # Formatting features
                         proteinToNucAcc[seq_feat.qualifiers['protein_id'][0]] = idsRead[-1]
                         translation = seq_feat.qualifiers['translation'][0]
-                        genotype = "unknown" if idsRead[-1] not in accToGenotype else accToGenotype[idsRead[-1]]
+
+                        if idsRead[-1] not in accToGenotype:
+                            genotype = "unknown"
+                            print(f"WARN unknown genotype: {idsRead[-1]}")
+                            print(seq_record)
+                        else:
+                            genotype = accToGenotype[idsRead[-1]]
+
                         feature_sequence = SeqRecord(Seq(translation, ), id=seq_feat.qualifiers['protein_id'][0],
                                                      description="|ORF{}|{}|{}".format(found, hostTypeMap[idsRead[-1]],
                                                                                        genotype), )
@@ -217,6 +223,10 @@ def main(args):
     print(len(unk))
 
     hostTypeCounter = Counter(x for x in hostTypeMap.values())
+    import csv
+    with open('hostTypeCounter.csv','w') as csvfile:
+        writer=csv.writer(csvfile)
+        writer.writerows(hostTypeCounter.items())
 
     # Verbose print outs and matplotlib:
     # How many was entrex able to query from genbank

@@ -55,7 +55,7 @@ def plotCounter(d, filename, xName="genotype"):
 def main(args):
     ''' -------------- Parse list of records ----------------'''
     Entrez.email='andrewclchan211@vt.edu'
-    Entrez.apikey= "62121718eb8c662846e0fbddb67a34480408"
+    Entrez.apikey= ""
 
     maxUnitsInt = int(25*(10**3))
     maxUnits = str(maxUnitsInt)

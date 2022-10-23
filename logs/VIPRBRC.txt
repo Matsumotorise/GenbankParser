@@ -1,0 +1,126 @@
+Starting program
+Reading from file: ./accs/ViprBRC-07-04-2022-accession-genes.acc
+List of accession codes: {'LC406654', 'AB074920', 'MH450027', 'MK410053', 'MW355291', 'LC406535', 'MW355302', 'MH504145', 'MW355352', 'LC406542', 'MZ542728', 'FJ998008', 'LC177791', 'MW355343', 'MW355359', 'AB291956', 'MF444100', 'MF444107', 'MW355257', 'MF444123', 'MZ676764', 'MW355354', 'AB220976', 'MW355371', 'MF444122', 'MF444097', 'MZ676760', 'MG020025', 'LC406472', 'MH504138', 'LC406552', 'MF444110', 'LC406520', 'AB253420', 'MF444114', 'MW355323', 'MW355372', 'MH184580', 'LC406600', 'KT581446', 'AB189075', 'MF444086', 'MW355381', 'MH450029', 'JQ013794', 'LC406560', 'MF444053', 'MF444089', 'MW365405', 'MW355360', 'MW355262', 'AB089824', 'MW355342', 'AB369690', 'MW355285', 'LC406541', 'MZ676759', 'LC406529', 'MW355249', 'MW355321', 'MH504148', 'AB443626', 'LC406478', 'MF444059', 'AB291953', 'MN646694', 'MF444028', 'MW355271', 'LC406544', 'LC549187', 'MZ676756', 'MH377722', 'MF346773', 'LC406624', 'LC406576', 'AB248521', 'MW355375', 'MW355347', 'LC406515', 'MW355395', 'LC406561', 'MF444084', 'LC406667', 'LC406566', 'LC406469', 'LC406615', 'MW795567', 'MW355221', 'OK340740', 'LC406507', 'KX981911', 'MH184582', 'AB847305', 'MW355237', 'LC406522', 'LC406579', 'MW355256', 'LC406505', 'MW355232', 'LC406625', 'LC406651', 'LC406628', 'MH504163', 'MH504159', 'AB369689', 'AB909124', 'LC406656', 'AY230202', 'MZ923536', 'MF444065', 'LC406663', 'LC484431', 'MW355385', 'LC406512', 'MK089847', 'MF959765', 'LC406513', 'MH992000', 'MW355339', 'MW355308', 'AB362839', 'AB074918', 'MH992013', 'MW355306', 'MN714358', 'MW355230', 'LC406657', 'LC406555', 'MW355305', 'AB521806', 'MN646696', 'LC225389', 'MW355276', 'LC406550', 'LC406613', 'MW355283', 'MW355264', 'LC406645', 'MF444050', 'OK076715', 'AB362840', 'MF444058', 'AB291964', 'KP294371', 'AB291959', 'MF444077', 'MN735216', 'AB602440', 'LC406526', 'LC406584', 'MH992011', 'MK089848', 'MW355334', 'MF444030', 'MW355318', 'LC057248', 'AB437316', 'MT840359', 'LC406489', 'MW355348', 'MH991998', 'MN646689', 'MF444102', 'MW355402', 'LC406633', 'LC177792', 'MK390970', 'MF444055', 'KY232313', 'MF444103', 'MF444035', 'AB291961', 'MN646692', 'MW355309', 'MW383253', 'LC406511', 'MF444056', 'FJ906895', 'AB698071', 'LC406497', 'MW355361', 'AB780451', 'LC406660', 'MF444085', 'LC406617', 'KX531115', 'MW355284', 'MW355299', 'MW355274', 'AB720034', 'MW355397', 'MZ923533', 'KX172133', 'LC646471', 'LC406538', 'AB301710', 'MH504142', 'MH504124', 'MW355231', 'LC651410', 'LC406653', 'LC490579', 'LC406525', 'MF444092', 'MF444081', 'MW355346', 'MH184579', 'MW355386', 'LC406572', 'KY929403', 'LC406495', 'AB236320', 'AB591733', 'MF444040', 'MH410175', 'MH991997', 'AB248520', 'MH992003', 'LC406551', 'MW355258', 'MF444068', 'LC406619', 'MH450031', 'LC549184', 'MH377724', 'MH991996', 'M73218', 'AB189074', 'KU980235', 'LC406631', 'AB291968', 'LC406493', 'LC406585', 'MH450025', 'MH504150', 'MW355294', 'LC406574', 'MF444087', 'LC164712', 'LC406602', 'MF444109', 'LC406596', 'LC406588', 'MK050107', 'MW355332', 'MW355229', 'MH504137', 'AB521805', 'MF444131', 'AB291952', 'LC406499', 'LC406518', 'LC406477', 'LC177790', 'AB220972', 'MW355227', 'JQ001749', 'AB720035', 'AB443627', 'AB437319', 'LC406611', 'LC406539', 'MF444061', 'MW355259', 'AB850879', 'MF444125', 'AB602439', 'MN401238', 'MW355248', 'KY929404', 'MW355233', 'MW355335', 'LC406496', 'MF444067', 'OK429318', 'MW355358', 'LY647099', 'LC406644', 'LC406502', 'MN562265', 'MW355319', 'LC406564', 'MW355400', 'KJ496144', 'LC387631', 'LC314158', 'MH504146', 'AB097812', 'LC406468', 'AB220977', 'MH991993', 'MW355382', 'MF444090', 'LC406594', 'LC406530', 'MZ736614', 'LC406618', 'AB222182', 'MW355363', 'LC406569', 'LC406627', 'KY436898', 'MN450852', 'LC406482', 'AB091395', 'AB220979', 'MW355330', 'AB220974', 'MN646693', 'LC545471', 'MW355356', 'OK340739', 'MH410174', 'AB909125', 'MH992005', 'KU670940', 'MF444047', 'AB161718', 'AB248522', 'LC428039', 'AB189072', 'LC406609', 'MW355320', 'AB362842', 'LC406610', 'MF444127', 'MH504136', 'LC406661', 'MH992008', 'MW355366', 'MH504156', 'OK076716', 'LC314156', 'MH992007', 'MW355228', 'AB443623', 'MF444029', 'MW355252', 'MW355353', 'LC406516', 'LC406517', 'MW355399', 'MH504140', 'MF444042', 'LC406503', 'MD194687', 'MF444104', 'LC406549', 'AB602441', 'AB847306', 'MN646691', 'MF959764', 'MF444054', 'AB080575', 'MW355403', 'AB780450', 'MW355219', 'MW355236', 'OM037109', 'MW355290', 'LC406623', 'MK410047', 'MG674164', 'MW355277', 'MF444091', 'MF444027', 'MF444032', 'MW355300', 'AB291967', 'LC406646', 'LC406562', 'LC406554', 'MF444115', 'AB856243', 'MN646690', 'MZ676774', 'AY115488', 'KX578717', 'KY780957', 'AB291963', 'MW355303', 'LC406528', 'MH992009', 'MH992002', 'LC406659', 'LC406593', 'D11093', 'LC406504', 'LC406568', 'LC126332', 'MW355218', 'MW355329', 'MW355373', 'MW355380', 'LC406577', 'MT920909', 'MZ676752', 'AP003430', 'MH504127', 'MH992006', 'MW355362', 'MH991994', 'MW355267', 'D10330', 'LC406573', 'AB443624', 'MW355296', 'MK192405', 'MK192406', 'LC386855', 'LC406519', 'MF444130', 'AB369687', 'MZ676765', 'MH074880', 'LC406488', 'MF444136', 'LC406565', 'MH504161', 'MF444138', 'MW355326', 'MF444120', 'LC406612', 'MW355312', 'LC387632', 'AJ272108', 'LC406599', 'MH991995', 'MW355383', 'MW391926', 'LC406484', 'MF444052', 'NC_001434', 'LC535077', 'MH504147', 'MW355322', 'AB362843', 'KX827238', 'LC406591', 'MW355393', 'MF444049', 'LC406575', 'MF444072', 'MW355340', 'LC406587', 'LC406479', 'AB780453', 'AB437318', 'MH504134', 'MW355295', 'MW355341', 'KT581444', 'MK410050', 'AB246676', 'MZ676770', 'LC603639', 'LC406509', 'LC145325', 'LC406498', 'MH450030', 'LC406500', 'AB362841', 'MK390971', 'LC406546', 'MF444041', 'MK410052', 'MW355288', 'LC406476', 'LC406501', 'MW355272', 'LC657084', 'MF444145', 'KT581443', 'MF444070', 'MH504129', 'MW355301', 'AY204877', 'MF444106', 'KY496200', 'KT581448', 'MW355247', 'MH504154', 'MW355367', 'AB740232', 'MZ676773', 'LC406487', 'MF444083', 'LC406523', 'MZ676763', 'MZ357113', 'MN614429', 'MF444111', 'MH450028', 'AB369688', 'AB291954', 'MW355289', 'MF444135', 'MH377727', 'MH504135', 'KX589065', 'MW355263', 'LC406548', 'MW355398', 'LC406545', 'LC406556', 'MH184581', 'KT581445', 'MF444064', 'JF443721', 'MF444141', 'MW355304', 'AB630971', 'LC549186', 'KY766999', 'MF444112', 'AB573435', 'LC406533', 'OK340738', 'MF444099', 'KY436505', 'MW355307', 'MW355391', 'MW355298', 'AB220978', 'NC_038504', 'AB591734', 'KY232312', 'MH504152', 'MZ676749', 'MH504158', 'MW355317', 'LC406580', 'LC406601', 'MN614141', 'MW355286', 'MW355315', 'MG783570', 'MW355242', 'MH450024', 'KU176132', 'LC406636', 'LC406630', 'AB890001', 'MF444113', 'AB847308', 'MH504155', 'MK089849', 'MW355268', 'MW355324', 'MF444101', 'LC131066', 'MF444116', 'MH504153', 'MH504162', 'MK050105', 'MW355281', 'LC406475', 'KX387865', 'LC406467', 'MF444039', 'MF444079', 'MN450853', 'MW355387', 'KU176129', 'MG020024', 'MF444140', 'MH504126', 'MH504160', 'LC406590', 'MF444142', 'MN450851', 'MH184584', 'MF444132', 'LC406616', 'LC406648', 'LC406506', 'MW355275', 'LC406578', 'MG020022', 'LC406531', 'MK050463', 'MW355245', 'OK340741', 'LC406606', 'LC406483', 'MF444038', 'AB847307', 'AB290313', 'LC406635', 'KU176130', 'MW355316', 'AB437317', 'MW355250', 'MG737712', 'MW355364', 'AB290312', 'MF444076', 'MK410046', 'LC406514', 'MK192408', 'MW355261', 'LC406662', 'MW355217', 'LC406583', 'MF444078', 'MF444075', 'LC176492', 'KY436507', 'LC406649', 'FJ705359', 'LC549185', 'LC406563', 'AB291965', 'MK410051', 'AB425830', 'AB193176', 'MW355225', 'MH504149', 'LC406626', 'MW355401', 'MF444137', 'LC177788', 'AB220971', 'MF444133', 'MW355269', 'LC406536', 'MN450854', 'LC406637', 'MH504144', 'MW355396', 'MW355328', 'MW355226', 'MW355379', 'LC260517', 'MF444073', 'MW355273', 'MW589651', 'LC406643', 'MW924815', 'LC406558', 'AB222183', 'MF444037', 'MW355394', 'MG573193', 'LC406570', 'AB074917', 'MW355370', 'MH918640', 'AB291955', 'MZ868954', 'MW355331', 'AY723745', 'MW355270', 'MN614430', 'AB480825', 'MF444043', 'MW355260', 'MW355338', 'MG783571', 'AY535004', 'MW355325', 'MW355365', 'AB161717', 'MZ676754', 'LC057247', 'KX387866', 'MW355327', 'MW355311', 'FJ457024', 'MF480298', 'JQ953664', 'LC406650', 'LC406652', 'AB291951', 'LC314157', 'LC406603', 'MF444033', 'LC406470', 'LC406510', 'LC406473', 'LC406547', 'LC406632', 'AB091394', 'LC406589', 'AB197674', 'MW795566', 'MF444134', 'LC436449', 'AB193178', 'LC436450', 'MK410048', 'LC406582', 'MH450022', 'MF444051', 'MW355222', 'MZ676751', 'MW355282', 'LC406620', 'KM516906', 'MF444057', 'MH377725', 'LC406543', 'MW355280', 'MF444128', 'MZ676767', 'MW355246', 'MH184583', 'LC406474', 'LC406485', 'LC406527', 'MH377723', 'AB099347', 'MF444066', 'LC225387', 'AB193177', 'MF444034', 'MW355224', 'LC406608', 'MH377726', 'MH504151', 'MW355238', 'MW355314', 'LC406557', 'MW355349', 'MW355376', 'MW355390', 'LC406598', 'AB847309', 'MW355350', 'MW355377', 'DQ279091', 'AB369691', 'LC406621', 'MW365406', 'MG833836', 'MH504132', 'MW355344', 'KX387867', 'LC406629', 'AB108537', 'MH450021', 'LC406540', 'OK340737', 'MH450023', 'MF444095', 'MK192407', 'MH450026', 'LC439299', 'LC126331', 'LC406639', 'LC406647', 'MK410044', 'MZ676762', 'MF444069', 'KX513953', 'LC406640', 'MW355243', 'MF444108', 'MH992010', 'MH450020', 'LC225388', 'M74506', 'MW149254', 'MW355239', 'MK410045', 'MF444117', 'NC_023425', 'MH504130', 'AB630970', 'LC061267', 'LC406471', 'MW355223', 'MW355234', 'AB698654', 'MW355293', 'MZ676757', 'MF444143', 'LC406658', 'LC406581', 'MH504157', 'MW355333', 'MH992012', 'MG976720', 'MF444094', 'LC406664', 'LC406532', 'LC406534', 'MZ676755', 'MW355244', 'MW355374', 'AB161719', 'MN401237', 'MW355278', 'AB189071', 'AB780452', 'MF444046', 'D11092', 'AB220975', 'MF444129', 'LC406665', 'MZ983635', 'LC573546', 'MG783569', 'AB291960', 'LC406642', 'MF444036', 'L08816', 'MF444119', 'MW355310', 'LC406641', 'LC406595', 'KY436506', 'AB189070', 'AB200239', 'LC406597', 'MZ676768', 'MW355369', 'MF480297', 'KJ496143', 'AF082843', 'LC406567', 'MF444096', 'OK429319', 'LC406508', 'MZ676750', 'MF444098', 'MK410049', 'LC597025', 'AB425831', 'MW355254', 'MW355357', 'LC176493', 'MW589652', 'MH504143', 'MW355389', 'LC406614', 'MF346772', 'MH410176', 'MH992001', 'MH504141', 'LC406492', 'MW355292', 'MG020023', 'MW355220', 'LC597024', 'MW355384', 'LC406559', 'MF444105', 'MW355355', 'MH809516', 'LC406622', 'MW355392', 'LF848974', 'AB220973', 'LC406607', 'LC406638', 'LC406655', 'MH504139', 'LC406486', 'LC406537', 'LC406586', 'MK330953', 'AB291957', 'MN450855', 'LC406592', 'LC406605', 'MH377721', 'MK192409', 'KX574712', 'MH504133', 'NC_018382', 'LC406521', 'AB291962', 'LC022745', 'AF455784', 'KX227751', 'MW355345', 'KT581447', 'MN614140', 'LC406491', 'MW355266', 'LC406634', 'MW596896', 'MW355241', 'AB189073', 'X98292', 'MW355336', 'MW355313', 'MZ463196', 'LC406666', 'MH504125', 'AB074915', 'MH991999', 'LC406553', 'MH992004', 'LC406481', 'AB291958', 'KR905549', 'LC406524', 'MZ676758', 'AB740220', 'LC406490', 'AB443625', 'MF444082', 'MH504131', 'MW355368', 'MN735215', 'MW355297', 'KU176131', 'LC406494', 'KU513561', 'MW355388', 'LC037955', 'MF444048', 'MZ676766', 'MF444093', 'MW355351', 'LC314155', 'MN735217', 'MF444088', 'LC406480', 'MG813927', 'MW355255', 'AB740222', 'MW355287', 'MW355240', 'MZ676769', 'AB291966', 'OM388298', 'AB890374', 'LC406604', 'MW355235', 'AB222184', 'MF444139', 'AB740221', 'LC177789', 'MN646695', 'MW355265', 'MZ676761', 'AB197673', 'MF444045', 'MF444124', 'MW355378', 'OK340742', 'MT364355', 'MW355404', 'MH504128', 'GU119961', 'MW355251', 'MZ676753', 'MW355337', 'MW355279', 'LC406571', 'MW355253'}
+Querying entries by ascension
+Unable to map to host: AB253420 OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('isolate', ['HEVN2']), ('db_xref', ['taxon:1678143']), ('country', ['Japan: Okinawa']), ('note', ['genotype 4'])])
+Unable to map to host: AY230202 OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('isolate', ['Morocco']), ('db_xref', ['taxon:291484']), ('country', ['Morocco'])])
+Unable to map to host: LC057248 OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('strain', ['CF4370']), ('db_xref', ['taxon:1678143']), ('country', ['Japan']), ('collection_date', ['2014-08-08']), ('note', ['cell culture'])])
+Unable to map to host: M73218 OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('db_xref', ['taxon:1678143'])])
+Unable to map to host: MD194687 OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['unassigned DNA']), ('db_xref', ['taxon:291484'])])
+Unable to map to host: D11093 OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('isolate', ['Uigh179']), ('db_xref', ['taxon:1678143'])])
+Unable to map to host: D10330 OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('isolate', ['HEVNE8L']), ('db_xref', ['taxon:1678143'])])
+Unable to map to host: MH074880 OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('strain', ['Kol16']), ('db_xref', ['taxon:291484']), ('country', ['India: Kolkata']), ('note', ['genotype: 1'])])
+Unable to map to host: NC_001434 OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('strain', ['Xinjiang']), ('db_xref', ['taxon:291484']), ('genotype', ['1'])])
+Unable to map to host: AB246676 OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('isolate', ['HEVN1']), ('db_xref', ['taxon:1678143']), ('note', ['genotype 3'])])
+Unable to map to host: MG783570 OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('isolate', ['DLS13-11681']), ('db_xref', ['taxon:291484']), ('country', ['France']), ('collection_date', ['2012']), ('note', ['genotype: 3i'])])
+Unable to map to host: MG783571 OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('isolate', ['DLS13-11685']), ('db_xref', ['taxon:291484']), ('country', ['France']), ('collection_date', ['2012']), ('note', ['genotype: 3/rabbit HEV'])])
+Unable to map to host: M74506 OrderedDict([('organism', ['human hepatitis E virus genotype 2a']), ('mol_type', ['genomic RNA']), ('strain', ['mexican']), ('db_xref', ['taxon:2773468'])])
+Unable to map to host: D11092 OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('db_xref', ['taxon:1678143'])])
+Unable to map to host: MG783569 OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('isolate', ['DLS13-11677']), ('db_xref', ['taxon:291484']), ('country', ['France']), ('collection_date', ['2012']), ('note', ['genotype: 3i'])])
+Unable to map to host: L08816 OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('db_xref', ['taxon:1678143'])])
+Unable to map to host: LF848974 OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['unassigned DNA']), ('db_xref', ['taxon:291484'])])
+955
+936
+934
+23
+12
+Unable to querry the following accession codes:  set()  Successful api querry: 954/954
+
+ Host counts:  Counter({'Human': 702, 'Boar': 118, 'Leporidae': 39, 'Rodent': 30, 'Unknown': 21, 'Avian': 13, 'Ferret': 8, 'Camel': 8, 'Mongoose': 3, 'Primate': 3, 'Bat': 3, 'Deer': 2, 'Shrew': 2, 'Hare': 1, 'Canine': 1}) with size: 954
+
+
+ DEBUG: Isolate lookup failures: [('JYM-Tot04L', 'AB291956'), ('HEVN2', 'AB253420'), ('JYO-Hyo03L', 'AB189075'), ('JIO-swJ19-7', 'AB443626'), ('JSO-Oki05L', 'AB291953'), ('CH_17LA00702', 'MF346773'), ('swJ8-5', 'AB248521'), ('Morocco', 'AY230202'), ('JYK-Tok03C', 'AB291964'), ('JTC-Kit-FH04L', 'AB291959'), ('JMH-Osa04C', 'AB291961'), ('JE03-1760F', 'AB301710'), ('JMNG-Oki02C', 'AB236320'), ('JTH-Hyo03L', 'AB189074'), ('JMM-Aba06C', 'AB291968'), ('JIY-Tot05L', 'AB291952'), ('JIO-swJ19-8', 'AB443627'), ('wbJSG1', 'AB222182'), ('JTS-Sap02', 'AB161718'), ('swJ12-4', 'AB248522'), ('JMO-Hyo03L', 'AB189072'), ('JE03-1760F_p5', 'AB362842'), ('JIO-swJ19-1', 'AB443623'), ('JKO-Aba-FH06C', 'AB291967'), ('JRM-Toy05C', 'AB291963'), ('Uigh179', 'D11093'), ('P10_pJE03-1760F_wt', 'LC126332'), ('HEVNE8L', 'D10330'), ('JIO-swJ19-2', 'AB443624'), ('JE03-1760F_p10', 'AB362843'), ('HEVN1', 'AB246676'), ('JSS-Oka04L', 'AB291954'), ('DLS13-11681', 'MG783570'), ('HRC-HE14C', 'AB291965'), ('wbJTS1', 'AB222183'), ('JSW-Kyo-FH06L', 'AB291955'), ('IND-SW-00-01', 'AY723745'), ('DLS13-11685', 'MG783571'), ('JSM-Sap95', 'AB161717'), ('JIO-Sai97L', 'AB291951'), ('swDQ', 'DQ279091'), ('CCC220', 'AB108537'), ('P5_pJE03-1760F_wt', 'LC126331'), ('JYW-Sap02', 'AB161719'), ('JDEER-Hyo03L', 'AB189071'), ('DLS13-11677', 'MG783569'), ('JTK-Kag06C', 'AB291960'), ('JBOAR1-Hyo04', 'AB189070'), ('JYU-Oki04L', 'AB291957'), ('JHK-Toy04C', 'AB291962'), ('JSO-Hyo03L', 'AB189073'), ('JNH-Ehi04L', 'AB291958'), ('JIO-swJ19-5', 'AB443625'), ('JST-KitAsa04C', 'AB291966'), ('wbJYG1', 'AB222184')] with size: 55
+
+
+ DEBUG: Unknown entries: [OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('isolate', ['HEVN2']), ('db_xref', ['taxon:1678143']), ('country', ['Japan: Okinawa']), ('note', ['genotype 4'])]), OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('isolate', ['Morocco']), ('db_xref', ['taxon:291484']), ('country', ['Morocco'])]), OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('strain', ['CF4370']), ('db_xref', ['taxon:1678143']), ('country', ['Japan']), ('collection_date', ['2014-08-08']), ('note', ['cell culture'])]), OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('db_xref', ['taxon:1678143'])]), OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['unassigned DNA']), ('db_xref', ['taxon:291484'])]), OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('isolate', ['Uigh179']), ('db_xref', ['taxon:1678143'])]), OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('isolate', ['HEVNE8L']), ('db_xref', ['taxon:1678143'])]), OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('strain', ['Kol16']), ('db_xref', ['taxon:291484']), ('country', ['India: Kolkata']), ('note', ['genotype: 1'])]), OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('strain', ['Xinjiang']), ('db_xref', ['taxon:291484']), ('genotype', ['1'])]), OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('isolate', ['HEVN1']), ('db_xref', ['taxon:1678143']), ('note', ['genotype 3'])]), OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('isolate', ['DLS13-11681']), ('db_xref', ['taxon:291484']), ('country', ['France']), ('collection_date', ['2012']), ('note', ['genotype: 3i'])]), OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('isolate', ['DLS13-11685']), ('db_xref', ['taxon:291484']), ('country', ['France']), ('collection_date', ['2012']), ('note', ['genotype: 3/rabbit HEV'])]), OrderedDict([('organism', ['human hepatitis E virus genotype 2a']), ('mol_type', ['genomic RNA']), ('strain', ['mexican']), ('db_xref', ['taxon:2773468'])]), OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('db_xref', ['taxon:1678143'])]), OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['genomic RNA']), ('isolate', ['DLS13-11677']), ('db_xref', ['taxon:291484']), ('country', ['France']), ('collection_date', ['2012']), ('note', ['genotype: 3i'])]), OrderedDict([('organism', ['Paslahepevirus balayani']), ('mol_type', ['genomic RNA']), ('db_xref', ['taxon:1678143'])]), OrderedDict([('organism', ['Hepeviridae']), ('mol_type', ['unassigned DNA']), ('db_xref', ['taxon:291484'])])] with size: 17
+Warn: no scrapping/mapping/genotypeing for  MZ542728
+Warn: no scrapping/mapping/genotypeing for  LC177791
+Warn: no scrapping/mapping/genotypeing for  MG020025
+Warn: no scrapping/mapping/genotypeing for  AB253420
+Warn: no scrapping/mapping/genotypeing for  LC549187
+Warn: no scrapping/mapping/genotypeing for  MW795567
+Warn: no scrapping/mapping/genotypeing for  AB847305
+Warn: no scrapping/mapping/genotypeing for  AY230202
+Warn: no scrapping/mapping/genotypeing for  LC225389
+Warn: no scrapping/mapping/genotypeing for  LC057248
+Warn: no scrapping/mapping/genotypeing for  LC177792
+miss Primate
+Warn: no scrapping/mapping/genotypeing for  LC549184
+Warn: no scrapping/mapping/genotypeing for  M73218
+Warn: no scrapping/mapping/genotypeing for  MK050107
+Warn: no scrapping/mapping/genotypeing for  LC177790
+Warn: no scrapping/mapping/genotypeing for  JQ001749
+Warn: no scrapping/mapping/genotypeing for  MN562265
+Warn: no scrapping/mapping/genotypeing for  MZ736614
+Warn: no scrapping/mapping/genotypeing for  MN450852
+Warn: no scrapping/mapping/genotypeing for  KU670940
+Warn: no scrapping/mapping/genotypeing for  AB362842
+Warn: no scrapping/mapping/genotypeing for  MD194687
+Warn: no scrapping/mapping/genotypeing for  AB847306
+Warn: no scrapping/mapping/genotypeing for  OM037109
+Warn: no scrapping/mapping/genotypeing for  D11093
+Warn: no scrapping/mapping/genotypeing for  LC126332
+Warn: no scrapping/mapping/genotypeing for  D10330
+Warn: no scrapping/mapping/genotypeing for  MK192405
+Warn: no scrapping/mapping/genotypeing for  MK192406
+Warn: no scrapping/mapping/genotypeing for  MH074880
+Warn: no scrapping/mapping/genotypeing for  MW391926
+Warn: no scrapping/mapping/genotypeing for  NC_001434
+Warn: no scrapping/mapping/genotypeing for  AB362843
+Warn: no scrapping/mapping/genotypeing for  AB246676
+Warn: no scrapping/mapping/genotypeing for  LC145325
+Warn: no scrapping/mapping/genotypeing for  MZ357113
+Warn: no scrapping/mapping/genotypeing for  KX589065
+Warn: no scrapping/mapping/genotypeing for  LC549186
+Warn: no scrapping/mapping/genotypeing for  NC_038504
+Warn: no scrapping/mapping/genotypeing for  MG783570
+Warn: no scrapping/mapping/genotypeing for  AB890001
+Warn: no scrapping/mapping/genotypeing for  AB847308
+Warn: no scrapping/mapping/genotypeing for  MK050105
+Warn: no scrapping/mapping/genotypeing for  MN450853
+Warn: no scrapping/mapping/genotypeing for  MG020024
+Warn: no scrapping/mapping/genotypeing for  MN450851
+Warn: no scrapping/mapping/genotypeing for  MG020022
+Warn: no scrapping/mapping/genotypeing for  AB847307
+Warn: no scrapping/mapping/genotypeing for  MG737712
+Warn: no scrapping/mapping/genotypeing for  MK192408
+Warn: no scrapping/mapping/genotypeing for  LC549185
+Warn: no scrapping/mapping/genotypeing for  LC177788
+Warn: no scrapping/mapping/genotypeing for  MN450854
+Warn: no scrapping/mapping/genotypeing for  MW589651
+Warn: no scrapping/mapping/genotypeing for  MW924815
+Warn: no scrapping/mapping/genotypeing for  MZ868954
+Warn: no scrapping/mapping/genotypeing for  MG783571
+Warn: no scrapping/mapping/genotypeing for  AY535004
+Warn: no scrapping/mapping/genotypeing for  LC057247
+Warn: no scrapping/mapping/genotypeing for  MW795566
+Warn: no scrapping/mapping/genotypeing for  KM516906
+Warn: no scrapping/mapping/genotypeing for  AB847309
+Warn: no scrapping/mapping/genotypeing for  MK192407
+Warn: no scrapping/mapping/genotypeing for  LC126331
+Warn: no scrapping/mapping/genotypeing for  KX513953
+Warn: no scrapping/mapping/genotypeing for  LC225388
+Warn: no scrapping/mapping/genotypeing for  M74506
+Warn: no scrapping/mapping/genotypeing for  MW149254
+Warn: no scrapping/mapping/genotypeing for  NC_023425
+Warn: no scrapping/mapping/genotypeing for  MG976720
+Warn: no scrapping/mapping/genotypeing for  D11092
+Warn: no scrapping/mapping/genotypeing for  LC573546
+Warn: no scrapping/mapping/genotypeing for  MG783569
+Warn: no scrapping/mapping/genotypeing for  L08816
+Warn: no scrapping/mapping/genotypeing for  MW589652
+miss Primate
+Warn: no scrapping/mapping/genotypeing for  MG020023
+Warn: no scrapping/mapping/genotypeing for  LF848974
+Warn: no scrapping/mapping/genotypeing for  MN450855
+Warn: no scrapping/mapping/genotypeing for  MK192409
+Warn: no scrapping/mapping/genotypeing for  NC_018382
+Warn: no scrapping/mapping/genotypeing for  MZ463196
+Warn: no scrapping/mapping/genotypeing for  KR905549
+Warn: no scrapping/mapping/genotypeing for  MG813927
+Warn: no scrapping/mapping/genotypeing for  AB890374
+Warn: no scrapping/mapping/genotypeing for  LC177789
+PerGenotypeHostDistribution: defaultdict(<class 'collections.Counter'>, {'HEV3': Counter({'Human': 487, 'Boar': 79, 'Mongoose': 3, 'Deer': 2, 'Leporidae': 1}), 'HEV4': Counter({'Human': 149, 'Boar': 35, 'Primate': 1}), 'HEV3ra': Counter({'Leporidae': 38, 'Human': 1}), 'HEV1': Counter({'Human': 57}), 'HEV7': Counter({'Camel': 8}), 'HEV5': Counter({'Boar': 2}), 'HEV6': Counter({'Boar': 2}), 'HEV2': Counter({'Human': 2})})
+host type miss: Counter({'HEV7': 2}) total: 2
+host type match: Counter({'HEV3': 572, 'HEV4': 185, 'HEV1': 57, 'HEV3ra': 39, 'HEV7': 8, 'HEV5': 2, 'HEV6': 2, 'HEV2': 2}) total: 867
+Valid comparisons (valid scraped hosts and valid calculated genotypes): 869 / 954
