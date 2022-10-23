@@ -50,8 +50,8 @@ See https://ncbiinsights.ncbi.nlm.nih.gov/2017/11/02/new-api-keys-for-the-e-util
 
 * Debug output:
     * There are a few warnings that tell you which GenBank entries need assignment and some general advice for each.
-	* For each entry marked as "Unable to map to host because we are missing the following entry in mapping.py:", we may simply add a mapping in species2group in Mappings.py to resolve the issue.
-	* If a entry has "Unable to map to host because no valid fields existed", examine the GenBank entry if it contains any useful information. You may need to add more functionality in the "Extraction of host features" loop in query_hepA_nuc.py if it's a field we do not check. If there is no useful information, you will need to look through the publication associated with the entry or contact the authors to make a mapping in manualMap.
+        * For each entry marked as "Unable to map to host because we are missing the following entry in mapping.py:", we may simply add a mapping in species2group in Mappings.py to resolve the issue.
+        * If a entry has "Unable to map to host because no valid fields existed", examine the GenBank entry if it contains any useful information. You may need to add more functionality in the "Extraction of host features" loop in query_hepA_nuc.py if it's a field we do not check. If there is no useful information, you will need to look through the publication associated with the entry or contact the authors to make a mapping in manualMap.
 
 
 
