@@ -33,6 +33,7 @@ Run the pipeline on a GenBank accession list and output the log to logs/VIPBRC-N
 ```
 ./query_hepA_nuc.py -p ./accs/ViprBRC-07-04-2022-accession-genes.acc | tee logs/VIPBRC-NCBI.txt
 ```
+Fasta file will be generated in output/
 
 
 # Improving the amount of scraped hosts
